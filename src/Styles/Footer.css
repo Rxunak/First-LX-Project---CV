@@ -1,0 +1,50 @@
+.foot-container{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background: #1CAC78;
+   
+    /* background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%); */
+}
+
+.div1{   
+    padding: 2px;
+    font-size: 2rem;
+}
+
+.div2{
+   
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    color: black;
+    margin: 0;
+    padding: 0;
+    padding: 1rem;
+    font-size: 3rem; 
+}
+
+.icon:hover{
+    color: white;
+}
+
+@media (min-width: 1201px) and (max-width: 1600px){
+    .foot-container{
+        height: auto;
+    }
+
+    .div1{
+        font-size: 1.2rem;
+    }
+
+    .icon{
+        font-size: 1.2rem;
+    }
+}
+
+

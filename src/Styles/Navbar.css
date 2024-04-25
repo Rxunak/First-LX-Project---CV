@@ -1,0 +1,85 @@
+.nav-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #F0F0F0;
+    
+    
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+
+
+.logo{
+    margin: 0;
+    height: 80px;
+    border-radius: 1rem;  
+    margin-right: 80rem;
+}
+
+.list{
+    list-style: none;
+    padding-top: 10px;
+    font-size: 1.3rem;
+}
+
+.list10{
+    color: #1CAC78;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.list10:hover{
+    color: white;
+    
+}
+
+.list9{
+    color: #1CAC78;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+   
+}
+
+.list9:hover{
+    color: white;
+    
+}
+
+/*Laptop*/
+@media (min-width: 1201px) and (max-width: 1600px){
+    .logo{
+        margin-right: 45rem;
+        width: 6rem;
+        height: 4rem;
+    }
+
+    .list10{
+        font-size: 1.5rem;
+    }
+
+    .list9{
+        font-size: 1.5rem;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+

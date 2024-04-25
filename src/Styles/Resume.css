@@ -1,0 +1,289 @@
+.r-container{
+    display: flex;
+    height: auto;   
+    flex-direction: column;
+
+   
+}
+
+.cont1{
+    height: 68rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #F0F0F0;
+    gap: 20px;
+    
+}
+
+.r1{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.rh2{
+    font-size: 3rem;
+}
+
+.cvbtn{
+    width: 100px;
+    height: 50px;
+    font-size: 13px;
+    font-weight: bolder;
+    background: #1CAC78 ;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+
+}
+
+.r2{
+    width: 600px;
+    height: 500px;  
+}
+
+.image{
+    width: 600px;
+    height: 500px;
+    border-radius: 3rem;
+}
+
+.ex{
+    text-align: center;
+    font-size: 4rem;
+    margin: 3rem;
+    color: #1CAC78;
+}
+
+.cont2{
+    background: white;
+    height: 77rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.cont3{
+    display: flex;
+    gap: 20px;
+    height: 40rem;
+
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+
+.f1{
+   
+    height: auto;
+    width: 30rem;
+    padding: 1rem;
+   
+   
+    
+}
+
+.f2{
+   
+    height: auto;
+    width: 30rem;
+    padding: 1rem;
+
+}
+
+.f3{
+    
+    height: auto;
+    width: 30rem;
+    padding: 1rem;
+    
+}
+
+.f1h{
+    font-size: 2rem;
+    color: #1CAC78;
+}
+
+.ic1{
+    color: #1CAC78;
+    font-size: 3rem;
+}
+
+.rp1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 1.5rem;
+}
+
+.maindiv{
+    height: 68rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:#F0F0F0;
+   
+}
+
+.rhh1{
+    color: #1CAC78;
+    font-size: 3rem;
+}
+
+.rhh2{
+    color: #0a0a0a;
+    font-size: 2rem;
+}
+
+.cvtn{
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    background: #1CAC78 ;
+    border: none;
+    border-radius: 1rem; 
+    
+}
+
+.cvbtn{
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    background: #1CAC78 ;
+    border: none;
+    border-radius: 1rem; 
+}
+
+
+
+
+
+.btn1{
+    text-decoration: none;
+    color: white;
+}
+
+/* Laptop */
+@media (min-width: 1201px) and (max-width: 1600px){
+
+    .cont1{
+        width: 100%;
+        height: 50rem;
+    }
+   
+    .r1{
+        width: 20rem;
+    }
+
+    .rh2{
+        font-size: 2rem;
+    }
+
+    .r2{
+        width: 20rem;
+       
+        
+    }
+
+    .image{
+        width: 20rem;
+        height: 20rem;
+        margin-top: 5rem;
+        
+    }
+
+    .cont2{
+        width: 100%;
+        height: 40rem;
+    }
+
+    .ex{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .f1{
+        width: 15rem;
+    }
+
+    .ic1{
+        font-size: 1.5rem;
+    }
+
+    .f1h{
+        font-size: 1.1rem;
+    }
+
+    .rp1{
+        font-size: 1.2rem;
+        
+    }
+
+    .rp11{
+        font-size: 1rem;
+        
+    }
+
+    .f1{
+        width: 20rem;
+      
+    }
+
+    .f2{
+        width: 20rem;
+    }
+
+    .f3{
+        width: 20rem;
+    }
+
+    .maindiv{
+        height: 39rem;
+    }
+
+    .rhh1{
+        font-size: 2.5rem;
+    }
+
+    .rhh2{
+        font-size: 1.5rem;
+    }
+
+    .cvtn{
+       margin: 2rem;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
